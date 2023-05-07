@@ -2,12 +2,12 @@
 
 
 
-Readme
+#Readme
 
 
 This repository contains a Python script that predicts the average price of a house based on several features using a linear regression model. The script utilizes the pandas, numpy, seaborn, and scikit-learn libraries for data handling, analysis, visualization, and machine learning.
 
-Dataset
+#Dataset
 
 
 The script uses the "USA_Housing.csv" dataset, which contains information about houses in the USA. The dataset includes the following columns:
@@ -30,7 +30,7 @@ Address: Address of the house (not used in the script)
 
 
 
-Usage
+#Usage
 
 
 Make sure you have the required libraries installed: pandas, numpy, seaborn, and scikit-learn.
@@ -65,7 +65,7 @@ You will be asked if you want to continue predicting prices for more houses. Ent
 
 
 
-Results
+#Results
 
 
 The model's accuracy is evaluated using the coefficient of determination (R-squared) score on the test set. In the provided example, the model achieved an R-squared score of approximately 0.9164, indicating a good fit to the data.
